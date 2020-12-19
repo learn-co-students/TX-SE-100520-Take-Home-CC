@@ -1,0 +1,33 @@
+{
+  "name": "react-bayside-student-lister-code-challenge",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "semantic-ui-css": "^2.4.1"
+  },
+  "devDependencies": {
+    "json-server": "^0.15.1",
+    "react-scripts": "^3.2.0"
+  },
+  "scripts": {
+    "prestart": "npm install",
+    "start": "json-server --watch db.json -p 6001 & open http://localhost:6001/courses & open http://localhost:6001/students & PORT=6002 react-scripts start && fg",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

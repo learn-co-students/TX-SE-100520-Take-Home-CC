@@ -1,0 +1,830 @@
+{
+  "courses": [
+    {
+      "id": 269,
+      "name": "Rock Climbing",
+      "instructor": "Gear Brylls",
+      "semester": "Spring 2020"
+    },
+    {
+      "id": 270,
+      "name": "Building an electric car",
+      "instructor": "Melon Usk",
+      "semester": "Winter 2020"
+    },
+    {
+      "id": 271,
+      "name": "How to Meme",
+      "instructor": "DewPiePie",
+      "semester": "Fall 2020"
+    },
+    {
+      "id": 272,
+      "name": "Having a good time",
+      "instructor": "Rob Boss",
+      "semester": "Summer 2020"
+    }
+  ],
+  "students": [
+    {
+      "id": 5945,
+      "name": "Mr. Princess Predovic",
+      "class_year": 11,
+      "percentage": 93,
+      "course": "Having a good time",
+      "attending": true
+    },
+    {
+      "id": 5952,
+      "name": "Ally McCullough",
+      "class_year": 10,
+      "percentage": 90,
+      "course": "How to Meme",
+      "attending": true
+    },
+    {
+      "id": 5955,
+      "name": "Milo Yundt",
+      "class_year": 10,
+      "percentage": 72,
+      "course": "Having a good time",
+      "attending": true
+    },
+    {
+      "id": 5958,
+      "name": "Emanuel Stiedemann",
+      "class_year": 11,
+      "percentage": 87,
+      "course": "Building an electric car",
+      "attending": true
+    },
+    {
+      "id": 5963,
+      "name": "Mrs. Diego Schoen",
+      "class_year": 9,
+      "percentage": 74,
+      "course": "Having a good time",
+      "attending": true
+    },
+    {
+      "id": 5964,
+      "name": "Precious Schowalter",
+      "class_year": 12,
+      "percentage": 73,
+      "course": "How to Meme",
+      "attending": true
+    },
+    {
+      "id": 5970,
+      "name": "Pearline Huel",
+      "class_year": 11,
+      "percentage": 82,
+      "course": "Rock Climbing",
+      "attending": true
+    },
+    {
+      "id": 5974,
+      "name": "Arjun Jacobi III",
+      "class_year": 12,
+      "percentage": 74,
+      "course": "Rock Climbing",
+      "attending": true
+    },
+    {
+      "id": 5979,
+      "name": "Jorge Orn",
+      "class_year": 11,
+      "percentage": 79,
+      "course": "Rock Climbing",
+      "attending": true
+    },
+    {
+      "id": 5987,
+      "name": "Judd Kautzer",
+      "class_year": 11,
+      "percentage": 70,
+      "course": "Building an electric car",
+      "attending": false
+    },
+    {
+      "id": 5997,
+      "name": "Adelia Marks",
+      "class_year": 12,
+      "percentage": 73,
+      "course": "Building an electric car",
+      "attending": true
+    },
+    {
+      "id": 5998,
+      "name": "Ludie Predovic DVM",
+      "class_year": 12,
+      "percentage": 91,
+      "course": "How to Meme",
+      "attending": true
+    },
+    {
+      "id": 6001,
+      "name": "Carroll Turner",
+      "class_year": 11,
+      "percentage": 97,
+      "course": "Rock Climbing",
+      "attending": false
+    },
+    {
+      "id": 6002,
+      "name": "Mrs. Stephon Treutel",
+      "class_year": 9,
+      "percentage": 76,
+      "course": "How to Meme",
+      "attending": true
+    },
+    {
+      "id": 6004,
+      "name": "Sterling Reinger",
+      "class_year": 11,
+      "percentage": 97,
+      "course": "Having a good time",
+      "attending": false
+    },
+    {
+      "id": 6010,
+      "name": "Orville Cronin",
+      "class_year": 12,
+      "percentage": 76,
+      "course": "Rock Climbing",
+      "attending": false
+    },
+    {
+      "id": 6016,
+      "name": "Florida Veum",
+      "class_year": 10,
+      "percentage": 71,
+      "course": "Having a good time",
+      "attending": true
+    },
+    {
+      "id": 6020,
+      "name": "Ms. Rosa Senger",
+      "class_year": 9,
+      "percentage": 99,
+      "course": "Building an electric car",
+      "attending": false
+    },
+    {
+      "id": 6021,
+      "name": "Jacinto Daniel",
+      "class_year": 11,
+      "percentage": 79,
+      "course": "Building an electric car",
+      "attending": false
+    },
+    {
+      "id": 6024,
+      "name": "Mr. Tiara Herman",
+      "class_year": 10,
+      "percentage": 72,
+      "course": "How to Meme",
+      "attending": true
+    },
+    {
+      "id": 5937,
+      "name": "Nicolas Marcora",
+      "class_year": 10,
+      "percentage": 79,
+      "course": "Building an electric car",
+      "attending": true
+    },
+    {
+      "id": 5935,
+      "name": "Jenifer Bahringer DVM",
+      "class_year": 12,
+      "percentage": 73,
+      "course": "Rock Climbing",
+      "attending": false
+    },
+    {
+      "id": 5941,
+      "name": "Gina Schaden",
+      "class_year": 11,
+      "percentage": 75,
+      "course": "Having a good time",
+      "attending": true
+    },
+    {
+      "id": 5943,
+      "name": "Margarette Schumm",
+      "class_year": 12,
+      "percentage": 98,
+      "course": "Building an electric car",
+      "attending": false
+    },
+    {
+      "id": 5944,
+      "name": "Mervin Heathcote",
+      "class_year": 9,
+      "percentage": 95,
+      "course": "Having a good time",
+      "attending": true
+    },
+    {
+      "id": 5953,
+      "name": "Lesley Ledner",
+      "class_year": 9,
+      "percentage": 70,
+      "course": "How to Meme",
+      "attending": true
+    },
+    {
+      "id": 5957,
+      "name": "Breana Grady DDS",
+      "class_year": 9,
+      "percentage": 91,
+      "course": "How to Meme",
+      "attending": false
+    },
+    {
+      "id": 5960,
+      "name": "Jesus Shanahan",
+      "class_year": 11,
+      "percentage": 100,
+      "course": "Building an electric car",
+      "attending": false
+    },
+    {
+      "id": 5962,
+      "name": "Guiseppe Nader V",
+      "class_year": 12,
+      "percentage": 72,
+      "course": "Rock Climbing",
+      "attending": false
+    },
+    {
+      "id": 5965,
+      "name": "Ines Heathcote Sr.",
+      "class_year": 11,
+      "percentage": 84,
+      "course": "Rock Climbing",
+      "attending": false
+    },
+    {
+      "id": 5968,
+      "name": "Elena Schmeler",
+      "class_year": 11,
+      "percentage": 73,
+      "course": "Having a good time",
+      "attending": true
+    },
+    {
+      "id": 5977,
+      "name": "Tyler Becker",
+      "class_year": 9,
+      "percentage": 91,
+      "course": "Having a good time",
+      "attending": true
+    },
+    {
+      "id": 5980,
+      "name": "Glennie Stoltenberg Jr.",
+      "class_year": 12,
+      "percentage": 84,
+      "course": "Having a good time",
+      "attending": true
+    },
+    {
+      "id": 5982,
+      "name": "Maymie Weber",
+      "class_year": 9,
+      "percentage": 87,
+      "course": "Building an electric car",
+      "attending": false
+    },
+    {
+      "id": 5988,
+      "name": "Clifford MacGyver",
+      "class_year": 11,
+      "percentage": 71,
+      "course": "Having a good time",
+      "attending": true
+    },
+    {
+      "id": 5989,
+      "name": "Arlene Goldner",
+      "class_year": 12,
+      "percentage": 80,
+      "course": "How to Meme",
+      "attending": true
+    },
+    {
+      "id": 5990,
+      "name": "Mrs. Alfredo Schaden",
+      "class_year": 12,
+      "percentage": 83,
+      "course": "How to Meme",
+      "attending": true
+    },
+    {
+      "id": 5991,
+      "name": "Miss Isobel Murazik",
+      "class_year": 10,
+      "percentage": 81,
+      "course": "How to Meme",
+      "attending": true
+    },
+    {
+      "id": 5992,
+      "name": "Foster Reichert",
+      "class_year": 9,
+      "percentage": 77,
+      "course": "Building an electric car",
+      "attending": true
+    },
+    {
+      "id": 5995,
+      "name": "Keith Smith IV",
+      "class_year": 9,
+      "percentage": 93,
+      "course": "Rock Climbing",
+      "attending": false
+    },
+    {
+      "id": 6000,
+      "name": "Miss Duncan Parisian",
+      "class_year": 12,
+      "percentage": 77,
+      "course": "Having a good time",
+      "attending": false
+    },
+    {
+      "id": 6008,
+      "name": "Enola Heathcote",
+      "class_year": 12,
+      "percentage": 81,
+      "course": "Rock Climbing",
+      "attending": false
+    },
+    {
+      "id": 6009,
+      "name": "Hyman Rau",
+      "class_year": 10,
+      "percentage": 86,
+      "course": "Rock Climbing",
+      "attending": true
+    },
+    {
+      "id": 6022,
+      "name": "Ms. Krystel Robel",
+      "class_year": 10,
+      "percentage": 73,
+      "course": "Having a good time",
+      "attending": false
+    },
+    {
+      "id": 6023,
+      "name": "Rhea Turcotte",
+      "class_year": 9,
+      "percentage": 97,
+      "course": "Rock Climbing",
+      "attending": true
+    },
+    {
+      "id": 6026,
+      "name": "Providenci Nikolaus",
+      "class_year": 10,
+      "percentage": 84,
+      "course": "Rock Climbing",
+      "attending": true
+    },
+    {
+      "id": 6027,
+      "name": "Houston Beatty",
+      "class_year": 10,
+      "percentage": 85,
+      "course": "How to Meme",
+      "attending": true
+    },
+    {
+      "id": 6031,
+      "name": "Abigail Koss",
+      "class_year": 11,
+      "percentage": 73,
+      "course": "How to Meme",
+      "attending": true
+    },
+    {
+      "id": 5933,
+      "name": "Janis Corkery",
+      "class_year": 11,
+      "percentage": 72,
+      "course": "Rock Climbing",
+      "attending": false
+    },
+    {
+      "id": 5934,
+      "name": "Ms. Nadia Quigley",
+      "class_year": 12,
+      "percentage": 74,
+      "course": "How to Meme",
+      "attending": false
+    },
+    {
+      "id": 5936,
+      "name": "Pablo Ondricka",
+      "class_year": 12,
+      "percentage": 98,
+      "course": "How to Meme",
+      "attending": true
+    },
+    {
+      "id": 5939,
+      "name": "Wade Breitenberg",
+      "class_year": 10,
+      "percentage": 96,
+      "course": "Having a good time",
+      "attending": true
+    },
+    {
+      "id": 5946,
+      "name": "Sophia Pouros V",
+      "class_year": 11,
+      "percentage": 96,
+      "course": "Building an electric car",
+      "attending": false
+    },
+    {
+      "id": 5948,
+      "name": "Harmon Kihn",
+      "class_year": 12,
+      "percentage": 73,
+      "course": "Having a good time",
+      "attending": true
+    },
+    {
+      "id": 5951,
+      "name": "Dahlia Farrell MD",
+      "class_year": 11,
+      "percentage": 93,
+      "course": "How to Meme",
+      "attending": true
+    },
+    {
+      "id": 5959,
+      "name": "Narciso Emmerich",
+      "class_year": 11,
+      "percentage": 72,
+      "course": "How to Meme",
+      "attending": false
+    },
+    {
+      "id": 5961,
+      "name": "Jarred Rolfson",
+      "class_year": 12,
+      "percentage": 89,
+      "course": "Having a good time",
+      "attending": true
+    },
+    {
+      "id": 5971,
+      "name": "Dr. Kiera Weissnat",
+      "class_year": 10,
+      "percentage": 90,
+      "course": "Having a good time",
+      "attending": false
+    },
+    {
+      "id": 5972,
+      "name": "June McLaughlin",
+      "class_year": 9,
+      "percentage": 92,
+      "course": "Rock Climbing",
+      "attending": true
+    },
+    {
+      "id": 5975,
+      "name": "Aurelia Anderson",
+      "class_year": 10,
+      "percentage": 72,
+      "course": "Rock Climbing",
+      "attending": true
+    },
+    {
+      "id": 5976,
+      "name": "Ms. Lavern Willms",
+      "class_year": 10,
+      "percentage": 80,
+      "course": "Rock Climbing",
+      "attending": true
+    },
+    {
+      "id": 5981,
+      "name": "Colin Purdy",
+      "class_year": 11,
+      "percentage": 93,
+      "course": "Having a good time",
+      "attending": false
+    },
+    {
+      "id": 5985,
+      "name": "Napoleon Brown",
+      "class_year": 9,
+      "percentage": 88,
+      "course": "Building an electric car",
+      "attending": false
+    },
+    {
+      "id": 5996,
+      "name": "Jeffry Adams",
+      "class_year": 11,
+      "percentage": 70,
+      "course": "How to Meme",
+      "attending": true
+    },
+    {
+      "id": 5999,
+      "name": "Irma O'Kon III",
+      "class_year": 10,
+      "percentage": 81,
+      "course": "Building an electric car",
+      "attending": false
+    },
+    {
+      "id": 6007,
+      "name": "Tiffany Bradtke",
+      "class_year": 12,
+      "percentage": 94,
+      "course": "Having a good time",
+      "attending": true
+    },
+    {
+      "id": 6012,
+      "name": "Niko Nolan",
+      "class_year": 10,
+      "percentage": 87,
+      "course": "Rock Climbing",
+      "attending": false
+    },
+    {
+      "id": 6014,
+      "name": "Fern Heller",
+      "class_year": 10,
+      "percentage": 87,
+      "course": "Building an electric car",
+      "attending": true
+    },
+    {
+      "id": 6015,
+      "name": "Dr. Tre Dare",
+      "class_year": 12,
+      "percentage": 71,
+      "course": "Building an electric car",
+      "attending": false
+    },
+    {
+      "id": 6017,
+      "name": "Ms. Annetta Ullrich",
+      "class_year": 11,
+      "percentage": 80,
+      "course": "Having a good time",
+      "attending": true
+    },
+    {
+      "id": 6029,
+      "name": "Garland Crooks",
+      "class_year": 9,
+      "percentage": 81,
+      "course": "Having a good time",
+      "attending": false
+    },
+    {
+      "id": 6030,
+      "name": "Jarrell Strosin",
+      "class_year": 9,
+      "percentage": 98,
+      "course": "Building an electric car",
+      "attending": false
+    },
+    {
+      "id": 6032,
+      "name": "Ms. Kailyn Lueilwitz",
+      "class_year": 11,
+      "percentage": 87,
+      "course": "Building an electric car",
+      "attending": false
+    },
+    {
+      "id": 5938,
+      "name": "Berneice Aufderhar",
+      "class_year": 9,
+      "percentage": 78,
+      "course": "Rock Climbing",
+      "attending": false
+    },
+    {
+      "id": 5940,
+      "name": "Nickolas Kuhn",
+      "class_year": 12,
+      "percentage": 99,
+      "course": "Rock Climbing",
+      "attending": false
+    },
+    {
+      "id": 5942,
+      "name": "Mr. Maci Bechtelar",
+      "class_year": 12,
+      "percentage": 94,
+      "course": "How to Meme",
+      "attending": true
+    },
+    {
+      "id": 5947,
+      "name": "Mateo O'Keefe",
+      "class_year": 10,
+      "percentage": 89,
+      "course": "Rock Climbing",
+      "attending": true
+    },
+    {
+      "id": 5949,
+      "name": "Rebecca Stiedemann",
+      "class_year": 9,
+      "percentage": 96,
+      "course": "Rock Climbing",
+      "attending": false
+    },
+    {
+      "id": 5950,
+      "name": "Adonis Jacobi DVM",
+      "class_year": 10,
+      "percentage": 89,
+      "course": "Having a good time",
+      "attending": true
+    },
+    {
+      "id": 5954,
+      "name": "Kaci Spencer",
+      "class_year": 11,
+      "percentage": 95,
+      "course": "Rock Climbing",
+      "attending": true
+    },
+    {
+      "id": 5956,
+      "name": "Lila Runolfsson Sr.",
+      "class_year": 11,
+      "percentage": 73,
+      "course": "Rock Climbing",
+      "attending": true
+    },
+    {
+      "id": 5966,
+      "name": "Ms. Neoma Spencer",
+      "class_year": 10,
+      "percentage": 73,
+      "course": "Building an electric car",
+      "attending": false
+    },
+    {
+      "id": 5967,
+      "name": "Miss Kirk Bauch",
+      "class_year": 10,
+      "percentage": 93,
+      "course": "Rock Climbing",
+      "attending": false
+    },
+    {
+      "id": 5969,
+      "name": "Salma Connelly",
+      "class_year": 11,
+      "percentage": 78,
+      "course": "Building an electric car",
+      "attending": false
+    },
+    {
+      "id": 5973,
+      "name": "Mary Williamson",
+      "class_year": 12,
+      "percentage": 100,
+      "course": "Building an electric car",
+      "attending": false
+    },
+    {
+      "id": 5978,
+      "name": "Miss Tressie Ortiz",
+      "class_year": 11,
+      "percentage": 83,
+      "course": "Rock Climbing",
+      "attending": false
+    },
+    {
+      "id": 5983,
+      "name": "Francesca Grant",
+      "class_year": 10,
+      "percentage": 72,
+      "course": "How to Meme",
+      "attending": true
+    },
+    {
+      "id": 5984,
+      "name": "Maribel Rosenbaum",
+      "class_year": 12,
+      "percentage": 84,
+      "course": "Having a good time",
+      "attending": true
+    },
+    {
+      "id": 5986,
+      "name": "Cassie Cremin I",
+      "class_year": 10,
+      "percentage": 80,
+      "course": "Building an electric car",
+      "attending": false
+    },
+    {
+      "id": 5993,
+      "name": "Gia Welch",
+      "class_year": 11,
+      "percentage": 93,
+      "course": "How to Meme",
+      "attending": false
+    },
+    {
+      "id": 5994,
+      "name": "Magdalena Farrell",
+      "class_year": 11,
+      "percentage": 73,
+      "course": "Having a good time",
+      "attending": true
+    },
+    {
+      "id": 6003,
+      "name": "Thad Halvorson III",
+      "class_year": 10,
+      "percentage": 78,
+      "course": "Having a good time",
+      "attending": false
+    },
+    {
+      "id": 6005,
+      "name": "Johann Hahn",
+      "class_year": 10,
+      "percentage": 95,
+      "course": "Rock Climbing",
+      "attending": false
+    },
+    {
+      "id": 6006,
+      "name": "Maria Cassin",
+      "class_year": 9,
+      "percentage": 77,
+      "course": "Rock Climbing",
+      "attending": false
+    },
+    {
+      "id": 6011,
+      "name": "Keith Berge",
+      "class_year": 10,
+      "percentage": 97,
+      "course": "Having a good time",
+      "attending": false
+    },
+    {
+      "id": 6013,
+      "name": "Frances Schaden",
+      "class_year": 9,
+      "percentage": 71,
+      "course": "Building an electric car",
+      "attending": false
+    },
+    {
+      "id": 6018,
+      "name": "Verona Kulas",
+      "class_year": 9,
+      "percentage": 97,
+      "course": "Having a good time",
+      "attending": true
+    },
+    {
+      "id": 6019,
+      "name": "Eve Grimes",
+      "class_year": 9,
+      "percentage": 91,
+      "course": "How to Meme",
+      "attending": false
+    },
+    {
+      "id": 6025,
+      "name": "Kadin Mayer",
+      "class_year": 9,
+      "percentage": 92,
+      "course": "Building an electric car",
+      "attending": true
+    },
+    {
+      "id": 6028,
+      "name": "Katlyn Yundt",
+      "class_year": 10,
+      "percentage": 88,
+      "course": "Building an electric car",
+      "attending": true
+    }
+  ]
+}
