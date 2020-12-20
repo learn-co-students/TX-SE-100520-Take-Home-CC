@@ -37,18 +37,28 @@ class CourseContainer extends Component {
     this.populateStudents(coolCourse)
   }
 
-  handleAttending=(student)=>{
+  handleAttending=(attendingStudent)=>{
+    attendingStudent.attending=!attendingStudent.attending
+    const attending=[...this.state.filteredStudents].map(student=>{
+       return student.id===attendingStudent.id? attendingStudent: student})
+    this.setState({filteredStudents : attending})
     
-    // const attending=[...this.state.filteredStudents].map(std=>{
-    //   return std.id===student.id? !student.attending: std.attending})
-    //this.setState({filteredStudents})
-    
-   console.log(student)
-    //this.setState({})
+
+    fetch(`http://localhost:6001/students/${attendingStudent.id}`, {
+			method: 'PATCH',
+			headers: {
+				'Content-Type': 'application/json',
+				Accept: 'application/json',
+			},
+			body: JSON.stringify({
+        attending: attendingStudent.attending
+      }),
+		})
+
   }
 
   render() {
-   //console.log(this.state.filteredStudents)
+
     return (
       <div className="ui grid container">
         <CourseDetails course={this.state.selectedCourse}/>
