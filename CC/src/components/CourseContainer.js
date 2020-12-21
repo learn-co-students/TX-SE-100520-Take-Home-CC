@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import CourseDetails from "./CourseDetails";
 import CourseSelector from "./CourseSelector";
 import StudentsList from "./StudentsList";
+import SortBar from "./SortBar";
 
 class CourseContainer extends Component {
 
@@ -9,7 +10,7 @@ class CourseContainer extends Component {
     courses:[],
     selectedCourse:[],
     filteredStudents:[],
-    attend: false
+    sort: ''
   }
 
   componentDidMount(){
@@ -42,9 +43,8 @@ class CourseContainer extends Component {
     const attending=[...this.state.filteredStudents].map(student=>{
        return student.id===attendingStudent.id? attendingStudent: student})
     this.setState({filteredStudents : attending})
-    
 
-    fetch(`http://localhost:6001/students/${attendingStudent.id}`, {
+      fetch(`http://localhost:6001/students/${attendingStudent.id}`, {
 			method: 'PATCH',
 			headers: {
 				'Content-Type': 'application/json',
@@ -57,13 +57,36 @@ class CourseContainer extends Component {
 
   }
 
-  render() {
+  sortedStudents=()=>{
+     let students=[...this.state.filteredStudents]
+       if (this.state.sort === "Name"){
+         students = students.sort((a, b)=>{
+           return a.name.localeCompare(b.name);
+         });
+       } else if (this.state.sort === "Attending"){
+         students = students.sort((a,b)=>{
+           return b.attending - a.attending;
+         });
+       }
+       
+       return students     
+  }
 
+  handleSort=(sort)=>{
+    this.setState({sort})
+  }
+
+
+
+  render() {
+  
     return (
       <div className="ui grid container">
         <CourseDetails course={this.state.selectedCourse}/>
         <CourseSelector courses={this.state.courses} handleChange={this.handleChange}/>
-        <StudentsList students={this.state.filteredStudents} handleAttending={this.handleAttending}/>
+        {this.state.filteredStudents.length!==0?
+        <SortBar sort={this.state.sort} handleSort={this.handleSort} /> : null}
+        <StudentsList students={this.sortedStudents()} handleAttending={this.handleAttending}/>
       </div>
     );
   }
