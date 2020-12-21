@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "json-server": "^0.15.1",
-    "react-scripts": "^3.2.0"
+    "react-scripts": "^4.0.1"
   },
   "scripts": {
     "prestart": "npm install",
