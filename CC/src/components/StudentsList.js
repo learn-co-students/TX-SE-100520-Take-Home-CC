@@ -1,7 +1,7 @@
 import React from "react";
 import Student from "./Student";
 
-const StudentsList = ({students, handleAttending}) => (
+const StudentsList = ({students, handleAttending, deleteStudent}) => (
   <table className="ui celled striped padded table unstackable">
     <tbody>
       <tr>
@@ -17,10 +17,13 @@ const StudentsList = ({students, handleAttending}) => (
         <th>
           <h3 className="ui center aligned header">Attending</h3>
         </th>
+        <th>
+          <h3 className="ui center aligned header">Delist Student</h3>
+        </th>
       </tr>
 
       {students?
-      students.map(student=> <Student key={student.id} student={student} handleAttending={handleAttending}/>)/* a row per student should go here */
+      students.map(student=> <Student key={student.id} student={student} handleAttending={handleAttending} deleteStudent={deleteStudent}/>)/* a row per student should go here */
       :
       null
       }

@@ -76,7 +76,22 @@ class CourseContainer extends Component {
     this.setState({sort})
   }
 
-
+  deleteStudent=(std)=>{
+    const newFilteredStudent=[...this.state.filteredStudents].filter(student=>student.id !==std.id)
+    this.setState({filteredStudents: newFilteredStudent})
+    // Not sure if changes should persist in the backend, if it should persist uncomment the code below
+    
+    //  fetch(`http://localhost:6001/students/${std.id}`, {
+		// 	method: 'PATCH',
+		// 	headers: {
+		// 		'Content-Type': 'application/json',
+		// 		Accept: 'application/json',
+		// 	},
+		// 	body: JSON.stringify({
+    //     course: ''
+    //   }),
+		// })
+  }
 
   render() {
   
@@ -86,7 +101,7 @@ class CourseContainer extends Component {
         <CourseSelector courses={this.state.courses} handleChange={this.handleChange}/>
         {this.state.filteredStudents.length!==0?
         <SortBar sort={this.state.sort} handleSort={this.handleSort} /> : null}
-        <StudentsList students={this.sortedStudents()} handleAttending={this.handleAttending}/>
+        <StudentsList students={this.sortedStudents()} handleAttending={this.handleAttending} deleteStudent={this.deleteStudent}/>
       </div>
     );
   }

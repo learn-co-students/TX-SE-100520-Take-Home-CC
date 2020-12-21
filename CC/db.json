@@ -71,7 +71,7 @@
       "name": "Precious Schowalter",
       "class_year": 12,
       "percentage": 73,
-      "course": "How to Meme",
+      "course": "",
       "attending": false
     },
     {
@@ -120,7 +120,7 @@
       "class_year": 12,
       "percentage": 91,
       "course": "How to Meme",
-      "attending": false
+      "attending": true
     },
     {
       "id": 6001,
@@ -136,7 +136,7 @@
       "class_year": 9,
       "percentage": 76,
       "course": "How to Meme",
-      "attending": true
+      "attending": false
     },
     {
       "id": 6004,
@@ -536,7 +536,7 @@
       "class_year": 11,
       "percentage": 70,
       "course": "How to Meme",
-      "attending": true
+      "attending": false
     },
     {
       "id": 5999,

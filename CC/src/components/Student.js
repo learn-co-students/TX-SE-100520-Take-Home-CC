@@ -1,6 +1,6 @@
 import React from "react";
 
-const Student = ({student, handleAttending}) => (
+const Student = ({student, handleAttending, deleteStudent}) => (
   <tr style={{ textAlign: "center" }}>
     <td>{student.name}</td>
     <td>{student.class_year}</td>
@@ -8,9 +8,16 @@ const Student = ({student, handleAttending}) => (
     <td>
       <input
         type="checkbox"
-        checked={student.attending /* if true, this checkbox will be checked! */}
+        checked={student.attending}
         onClick={() => handleAttending(student)}
       />
+    </td>
+    <td>
+      <button 
+        className="negative ui button"
+        onClick={()=> deleteStudent(student)}
+        >Remove
+      </button>
     </td>
   </tr>
 );
